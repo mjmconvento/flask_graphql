@@ -71,4 +71,5 @@ def allowed_file(filename):
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 if __name__ == "__main__":
+    print 'Serving at host http://127.0.0.1:5000/graphql'
     app.run(debug=True, threaded=True)

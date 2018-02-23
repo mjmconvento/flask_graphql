@@ -4,7 +4,6 @@ from graphene_sqlalchemy import SQLAlchemyConnectionField, SQLAlchemyObjectType
 from database import db_session, User as UserModel, Post as PostModel, Message as MessageModel, Sample as SampleModel
 from sqlalchemy import and_, text
 import os.path
-from flask import request
 import logging
 
 logging.basicConfig(filename='/var/www/flask_graphql/error_log/error_log.txt', level=logging.DEBUG, 
@@ -66,7 +65,12 @@ class createPost(graphene.Mutation):
         db_session.add(post)
         db_session.commit()
         ok = True
-        return createPost(ok=ok)
+        # return createPost(ok=ok)
+
+        if pubsub.subscriptions:
+            pubsub.publish('posts', post.as_dict())
+        return createPost(ok=ok, post=post)
+
 
 
 # Used to Change Username with Email
@@ -108,7 +112,7 @@ class UploadFile(graphene.Mutation):
             file.save(os.path.join('/var/www/flask_graphql/uploads', file.filename))
             return UploadFile(ok=True)
         except Exception as e:
-            logger.error(e)
+            # logger.error(e)
             return UploadFile(ok=False)
 
 
@@ -128,13 +132,13 @@ class Query(graphene.ObjectType):
     all_messages = graphene.List(Messages, like_message = graphene.String(), limit = graphene.Int())
     def resolve_all_messages(self, args, context, info):
         try:
-            logger.error(args)
+            # logger.error(args)
             like_formatter = text('message LIKE "%{}%"'.format(args['like_message']))
             order_by = text('id ASC')
             query = Messages.get_query(info).filter(like_formatter).order_by(order_by).limit(args['limit'])  # SQLAlchemy query
             return query.all()
         except Exception as e:
-            logger.error(e)
+            logger.error('query error')
 
     # all_samples = SQLAlchemyConnectionField(Samples)
     # samples = graphene.List(Samples, message = graphene.String())
@@ -168,5 +172,18 @@ class MyMutations(graphene.ObjectType):
     change_username = changeUsername.Field()
     upload_file = UploadFile.Field()
 
+class Subscription(graphene.ObjectType):
+    posts = SQLAlchemyConnectionField(Posts, ok=graphene.Boolean())
 
-schema = graphene.Schema(query=Query, mutation=MyMutations, types=[Users])
+    # mutation oject that was published will be passed as
+    # root_value of subscription
+    def resolve_posts(self, args, context, info):
+        try:
+            query = Posts.get_query(context)
+            return 'sss'
+        except Exception as e:
+            error.log('resolve_posts_error')
+
+
+
+schema = graphene.Schema(query=Query, mutation=MyMutations, subscription=Subscription, types=[Users])
