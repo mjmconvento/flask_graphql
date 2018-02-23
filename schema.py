@@ -173,16 +173,16 @@ class MyMutations(graphene.ObjectType):
     upload_file = UploadFile.Field()
 
 class Subscription(graphene.ObjectType):
-    posts = SQLAlchemyConnectionField(Posts, ok=graphene.Boolean())
+    all_posts = SQLAlchemyConnectionField(Posts)
 
     # mutation oject that was published will be passed as
     # root_value of subscription
-    def resolve_posts(self, args, context, info):
-        try:
-            query = Posts.get_query(context)
-            return 'sss'
-        except Exception as e:
-            error.log('resolve_posts_error')
+    # def resolve_posts(self, args, context, info):
+    #     try:
+    #         query = Posts.get_query(context)
+    #         return 'sss'
+    #     except Exception as e:
+    #         error.log('resolve_posts_error')
 
 
 
