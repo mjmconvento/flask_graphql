@@ -1,612 +1,367 @@
-2018-02-23 23:45:31,585 INFO werkzeug 127.0.0.1 - - [23/Feb/2018 23:45:31] "OPTIONS /graphql HTTP/1.1" 200 -
-2018-02-23 23:45:32,108 INFO werkzeug 127.0.0.1 - - [23/Feb/2018 23:45:32] "POST /graphql HTTP/1.1" 200 -
-2018-02-23 23:45:32,440 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:32,442 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:32,442 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:32,443 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:32,443 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:32,446 ERROR __main__ connection here
-2018-02-23 23:45:32,446 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab363e10>
-2018-02-23 23:45:32,447 ERROR __main__ connection here 222
-2018-02-23 23:45:32,634 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:32,634 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:32,634 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:32,634 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:32,635 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:32,635 ERROR __main__ connection here
-2018-02-23 23:45:32,635 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab268950>
-2018-02-23 23:45:32,635 ERROR __main__ connection here 222
-2018-02-23 23:45:32,841 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:32,841 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:32,841 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:32,841 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:32,842 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:32,842 ERROR __main__ connection here
-2018-02-23 23:45:32,842 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab268f10>
-2018-02-23 23:45:32,842 ERROR __main__ connection here 222
-2018-02-23 23:45:33,373 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:33,374 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:33,374 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:33,374 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:33,374 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:33,374 ERROR __main__ connection here
-2018-02-23 23:45:33,374 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7e8510>
-2018-02-23 23:45:33,374 ERROR __main__ connection here 222
-2018-02-23 23:45:34,086 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:34,086 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:34,086 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:34,087 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:34,087 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:34,087 ERROR __main__ connection here
-2018-02-23 23:45:34,088 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7e8ad0>
-2018-02-23 23:45:34,088 ERROR __main__ connection here 222
-2018-02-23 23:45:34,289 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:34,289 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:34,289 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:34,289 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:34,290 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:34,290 ERROR __main__ connection here
-2018-02-23 23:45:34,290 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7eb090>
-2018-02-23 23:45:34,290 ERROR __main__ connection here 222
-2018-02-23 23:45:36,305 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:36,306 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:36,306 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:36,306 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:36,307 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:36,307 ERROR __main__ connection here
-2018-02-23 23:45:36,308 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7eb650>
-2018-02-23 23:45:36,308 ERROR __main__ connection here 222
-2018-02-23 23:45:39,183 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:39,183 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:39,184 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:39,184 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:39,185 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:39,186 ERROR __main__ connection here
-2018-02-23 23:45:39,187 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7ebc10>
-2018-02-23 23:45:39,190 ERROR __main__ connection here 222
-2018-02-23 23:45:44,321 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:44,321 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:44,322 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:44,322 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:44,323 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:44,323 ERROR __main__ connection here
-2018-02-23 23:45:44,324 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f21d0>
-2018-02-23 23:45:44,324 ERROR __main__ connection here 222
-2018-02-23 23:45:44,898 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:44,898 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:44,898 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:44,898 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:44,898 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:44,898 ERROR __main__ connection here
-2018-02-23 23:45:44,899 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f2790>
-2018-02-23 23:45:44,899 ERROR __main__ connection here 222
-2018-02-23 23:45:54,372 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:54,372 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:54,372 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:54,372 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:54,373 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:54,373 ERROR __main__ connection here
-2018-02-23 23:45:54,373 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f2d10>
-2018-02-23 23:45:54,374 ERROR __main__ connection here 222
-2018-02-23 23:45:54,915 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:45:54,915 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:45:54,915 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:45:54,915 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:45:54,916 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:45:54,916 ERROR __main__ connection here
-2018-02-23 23:45:54,916 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f8310>
-2018-02-23 23:45:54,916 ERROR __main__ connection here 222
-2018-02-23 23:46:04,420 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:04,421 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:04,422 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:04,422 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:04,425 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:04,427 ERROR __main__ connection here
-2018-02-23 23:46:04,427 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f8890>
-2018-02-23 23:46:04,429 ERROR __main__ connection here 222
-2018-02-23 23:46:04,935 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:04,935 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:04,936 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:04,936 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:04,937 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:04,937 ERROR __main__ connection here
-2018-02-23 23:46:04,937 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f8e50>
-2018-02-23 23:46:04,938 ERROR __main__ connection here 222
-2018-02-23 23:46:14,444 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:14,444 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:14,444 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:14,444 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:14,445 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:14,445 ERROR __main__ connection here
-2018-02-23 23:46:14,445 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa800410>
-2018-02-23 23:46:14,445 ERROR __main__ connection here 222
-2018-02-23 23:46:14,958 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:14,958 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:14,958 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:14,958 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:14,959 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:14,959 ERROR __main__ connection here
-2018-02-23 23:46:14,959 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa8009d0>
-2018-02-23 23:46:14,959 ERROR __main__ connection here 222
-2018-02-23 23:46:24,459 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:24,460 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:24,460 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:24,460 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:24,460 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:24,460 ERROR __main__ connection here
-2018-02-23 23:46:24,460 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa800f50>
-2018-02-23 23:46:24,460 ERROR __main__ connection here 222
-2018-02-23 23:46:24,987 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:24,987 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:24,987 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:24,987 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:24,988 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:24,988 ERROR __main__ connection here
-2018-02-23 23:46:24,988 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa805550>
-2018-02-23 23:46:24,988 ERROR __main__ connection here 222
-2018-02-23 23:46:34,479 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:34,480 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:34,482 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:34,482 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:34,485 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:34,486 ERROR __main__ connection here
-2018-02-23 23:46:34,488 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa805ad0>
-2018-02-23 23:46:34,488 ERROR __main__ connection here 222
-2018-02-23 23:46:35,067 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:35,067 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:35,067 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:35,067 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:35,068 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:35,068 ERROR __main__ connection here
-2018-02-23 23:46:35,068 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa8090d0>
-2018-02-23 23:46:35,068 ERROR __main__ connection here 222
-2018-02-23 23:46:44,509 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:44,510 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:44,510 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:44,511 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:44,512 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:44,514 ERROR __main__ connection here
-2018-02-23 23:46:44,514 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa809650>
-2018-02-23 23:46:44,515 ERROR __main__ connection here 222
-2018-02-23 23:46:45,143 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:45,143 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:45,143 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:45,143 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:45,144 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:45,144 ERROR __main__ connection here
-2018-02-23 23:46:45,144 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa809c10>
-2018-02-23 23:46:45,144 ERROR __main__ connection here 222
-2018-02-23 23:46:54,532 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:54,532 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:54,532 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:54,532 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:54,533 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:54,533 ERROR __main__ connection here
-2018-02-23 23:46:54,533 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa8111d0>
-2018-02-23 23:46:54,533 ERROR __main__ connection here 222
-2018-02-23 23:46:55,250 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:46:55,250 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:46:55,250 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:46:55,250 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:46:55,250 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,250 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,250 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,251 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,252 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,252 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,254 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,254 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,254 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,255 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,256 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,256 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,256 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,256 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,256 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,257 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,257 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,257 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,257 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,257 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,257 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,258 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,259 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,259 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,259 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,259 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,259 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,259 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,260 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,260 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,262 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,262 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,262 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:46:55,263 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,263 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:46:55,263 ERROR __main__ connection here
-2018-02-23 23:46:55,263 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa809e10>
-2018-02-23 23:46:55,265 ERROR __main__ connection here 222
-2018-02-23 23:47:04,547 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:04,547 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:04,547 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:04,548 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:04,548 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:04,548 ERROR __main__ connection here
-2018-02-23 23:47:04,549 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa8098d0>
-2018-02-23 23:47:04,549 ERROR __main__ connection here 222
-2018-02-23 23:47:05,339 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:05,340 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:05,340 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:05,340 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:05,341 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:05,341 ERROR __main__ connection here
-2018-02-23 23:47:05,341 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa8091d0>
-2018-02-23 23:47:05,341 ERROR __main__ connection here 222
-2018-02-23 23:47:14,564 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:14,564 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:14,565 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:14,565 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:14,566 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:14,566 ERROR __main__ connection here
-2018-02-23 23:47:14,566 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab268ed0>
-2018-02-23 23:47:14,566 ERROR __main__ connection here 222
-2018-02-23 23:47:15,650 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:15,650 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:15,650 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:15,650 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:15,651 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:15,651 ERROR __main__ connection here
-2018-02-23 23:47:15,651 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab268a10>
-2018-02-23 23:47:15,651 ERROR __main__ connection here 222
-2018-02-23 23:47:24,580 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:24,580 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:24,580 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:24,581 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:24,581 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:24,581 ERROR __main__ connection here
-2018-02-23 23:47:24,582 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab268250>
-2018-02-23 23:47:24,582 ERROR __main__ connection here 222
-2018-02-23 23:47:25,671 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:25,671 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:25,671 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:25,671 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:25,672 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:25,672 ERROR __main__ connection here
-2018-02-23 23:47:25,672 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa8111d0>
-2018-02-23 23:47:25,672 ERROR __main__ connection here 222
-2018-02-23 23:47:34,616 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:34,616 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:34,616 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:34,617 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:34,617 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:34,617 ERROR __main__ connection here
-2018-02-23 23:47:34,617 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa811b50>
-2018-02-23 23:47:34,617 ERROR __main__ connection here 222
-2018-02-23 23:47:35,691 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:35,691 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:35,691 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:35,691 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:35,691 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:35,692 ERROR __main__ connection here
-2018-02-23 23:47:35,692 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa803150>
-2018-02-23 23:47:35,692 ERROR __main__ connection here 222
-2018-02-23 23:47:44,637 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:44,637 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:44,637 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:44,637 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:44,638 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:44,638 ERROR __main__ connection here
-2018-02-23 23:47:44,638 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa8036d0>
-2018-02-23 23:47:44,638 ERROR __main__ connection here 222
-2018-02-23 23:47:45,729 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:45,729 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:45,729 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:45,730 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:45,730 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:45,730 ERROR __main__ connection here
-2018-02-23 23:47:45,730 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa803c90>
-2018-02-23 23:47:45,731 ERROR __main__ connection here 222
-2018-02-23 23:47:54,657 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:54,657 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:54,657 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:54,657 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:54,658 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:54,658 ERROR __main__ connection here
-2018-02-23 23:47:54,658 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa801250>
-2018-02-23 23:47:54,658 ERROR __main__ connection here 222
-2018-02-23 23:47:55,762 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:47:55,762 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:47:55,762 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:47:55,763 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:47:55,763 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:47:55,763 ERROR __main__ connection here
-2018-02-23 23:47:55,763 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa801810>
-2018-02-23 23:47:55,763 ERROR __main__ connection here 222
-2018-02-23 23:48:04,677 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:04,677 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:04,677 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:04,677 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:04,677 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:04,677 ERROR __main__ connection here
-2018-02-23 23:48:04,678 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa801d90>
-2018-02-23 23:48:04,678 ERROR __main__ connection here 222
-2018-02-23 23:48:05,837 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:05,838 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:05,838 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:05,838 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:05,839 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:05,839 ERROR __main__ connection here
-2018-02-23 23:48:05,839 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7fc390>
-2018-02-23 23:48:05,839 ERROR __main__ connection here 222
-2018-02-23 23:48:14,713 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:14,713 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:14,713 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:14,713 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:14,714 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:14,715 ERROR __main__ connection here
-2018-02-23 23:48:14,715 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7fc910>
-2018-02-23 23:48:14,715 ERROR __main__ connection here 222
-2018-02-23 23:48:15,899 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:15,899 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:15,899 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:15,899 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:15,900 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:15,900 ERROR __main__ connection here
-2018-02-23 23:48:15,900 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7fced0>
-2018-02-23 23:48:15,900 ERROR __main__ connection here 222
-2018-02-23 23:48:24,740 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:24,741 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:24,742 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:24,742 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:24,746 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:24,746 ERROR __main__ connection here
-2018-02-23 23:48:24,748 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f3490>
-2018-02-23 23:48:24,749 ERROR __main__ connection here 222
-2018-02-23 23:48:26,017 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:26,017 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:26,018 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:26,018 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:26,018 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:26,018 ERROR __main__ connection here
-2018-02-23 23:48:26,018 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f3a50>
-2018-02-23 23:48:26,018 ERROR __main__ connection here 222
-2018-02-23 23:48:34,767 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:34,767 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:34,767 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:34,767 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:34,768 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:34,768 ERROR __main__ connection here
-2018-02-23 23:48:34,768 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f3fd0>
-2018-02-23 23:48:34,768 ERROR __main__ connection here 222
-2018-02-23 23:48:36,288 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:36,290 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:36,291 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:36,294 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:36,297 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:36,300 ERROR __main__ connection here
-2018-02-23 23:48:36,301 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f2b50>
-2018-02-23 23:48:36,301 ERROR __main__ connection here 222
-2018-02-23 23:48:44,781 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:44,781 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:44,781 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:44,781 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:44,781 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:44,781 ERROR __main__ connection here
-2018-02-23 23:48:44,782 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7f2550>
-2018-02-23 23:48:44,782 ERROR __main__ connection here 222
-2018-02-23 23:48:46,462 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:46,463 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:46,463 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:46,463 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:46,463 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:46,463 ERROR __main__ connection here
-2018-02-23 23:48:46,463 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7e8190>
-2018-02-23 23:48:46,463 ERROR __main__ connection here 222
-2018-02-23 23:48:54,805 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:54,805 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:54,805 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:54,805 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:54,806 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:54,806 ERROR __main__ connection here
-2018-02-23 23:48:54,806 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7e86d0>
-2018-02-23 23:48:54,806 ERROR __main__ connection here 222
-2018-02-23 23:48:56,902 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:48:56,902 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:48:56,902 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:48:56,902 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:48:56,903 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:48:56,903 ERROR __main__ connection here
-2018-02-23 23:48:56,903 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7e8c90>
-2018-02-23 23:48:56,903 ERROR __main__ connection here 222
-2018-02-23 23:49:04,828 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:04,829 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:04,829 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:04,829 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:04,829 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:04,830 ERROR __main__ connection here
-2018-02-23 23:49:04,830 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa81c250>
-2018-02-23 23:49:04,830 ERROR __main__ connection here 222
-2018-02-23 23:49:07,522 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:07,522 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:07,522 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:07,523 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:07,523 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:07,523 ERROR __main__ connection here
-2018-02-23 23:49:07,524 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa81c810>
-2018-02-23 23:49:07,524 ERROR __main__ connection here 222
-2018-02-23 23:49:14,847 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:14,847 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:14,848 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:14,848 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:14,849 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:14,849 ERROR __main__ connection here
-2018-02-23 23:49:14,849 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa81cd90>
-2018-02-23 23:49:14,849 ERROR __main__ connection here 222
-2018-02-23 23:49:17,813 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:17,814 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:17,815 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:17,816 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:17,822 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:17,822 ERROR __main__ connection here
-2018-02-23 23:49:17,824 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa821390>
-2018-02-23 23:49:17,825 ERROR __main__ connection here 222
-2018-02-23 23:49:24,876 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:24,876 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:24,876 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:24,876 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:24,877 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:24,877 ERROR __main__ connection here
-2018-02-23 23:49:24,877 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa821910>
-2018-02-23 23:49:24,877 ERROR __main__ connection here 222
-2018-02-23 23:49:27,963 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:27,963 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:27,963 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:27,963 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:27,963 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:27,963 ERROR __main__ connection here
-2018-02-23 23:49:27,963 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa821ed0>
-2018-02-23 23:49:27,963 ERROR __main__ connection here 222
-2018-02-23 23:49:34,892 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:34,893 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:34,893 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:34,893 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:34,893 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,893 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,893 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,894 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,895 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,895 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,895 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,895 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,895 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,895 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,895 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,896 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,896 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,896 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,896 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,897 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,897 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,897 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,898 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,898 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,898 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,898 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,899 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,899 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,899 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,899 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,899 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,900 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,901 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,901 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,901 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,901 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,901 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,902 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,902 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,902 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,902 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,902 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,903 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,904 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,904 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,904 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,905 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,905 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,905 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,905 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,905 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,905 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,906 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,906 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,906 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:49:34,906 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,906 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:34,907 ERROR __main__ connection here
-2018-02-23 23:49:34,908 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7a8490>
-2018-02-23 23:49:34,908 ERROR __main__ connection here 222
-2018-02-23 23:49:38,153 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:38,153 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:38,153 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:38,153 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:38,153 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:38,154 ERROR __main__ connection here
-2018-02-23 23:49:38,154 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa821590>
-2018-02-23 23:49:38,154 ERROR __main__ connection here 222
-2018-02-23 23:49:44,921 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:44,923 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:44,924 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:44,927 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:44,929 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:44,934 ERROR __main__ connection here
-2018-02-23 23:49:44,935 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa821050>
-2018-02-23 23:49:44,935 ERROR __main__ connection here 222
-2018-02-23 23:49:49,403 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:49,404 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:49,405 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:49,406 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:49,408 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:49,410 ERROR __main__ connection here
-2018-02-23 23:49:49,411 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab2683d0>
-2018-02-23 23:49:49,411 ERROR __main__ connection here 222
-2018-02-23 23:49:54,954 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:49:54,954 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:49:54,954 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:49:54,954 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:49:54,954 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:49:54,954 ERROR __main__ connection here
-2018-02-23 23:49:54,955 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab268510>
-2018-02-23 23:49:54,955 ERROR __main__ connection here 222
-2018-02-23 23:50:01,894 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:50:01,894 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:50:01,894 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:50:01,894 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:50:01,894 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:01,895 ERROR __main__ connection here
-2018-02-23 23:50:01,895 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69ab268c50>
-2018-02-23 23:50:01,895 ERROR __main__ connection here 222
-2018-02-23 23:50:04,968 DEBUG geventwebsocket.server Initializing WebSocket
-2018-02-23 23:50:04,969 DEBUG geventwebsocket.server Validating WebSocket request
-2018-02-23 23:50:04,969 DEBUG geventwebsocket.server Attempting to upgrade connection
-2018-02-23 23:50:04,969 DEBUG geventwebsocket.server WebSocket request accepted, switching protocols
-2018-02-23 23:50:04,969 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:04,969 ERROR __main__ connection here
-2018-02-23 23:50:04,969 ERROR __main__ <graphql_subscriptions.subscription_transport_ws.SubscriptionServer object at 0x7f69aa7a8590>
-2018-02-23 23:50:04,970 ERROR __main__ connection here 222
-2018-02-23 23:50:11,997 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:50:11,998 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:12,001 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:50:12,001 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:12,001 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:50:12,001 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:12,001 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:50:12,002 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:12,003 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:50:12,004 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:12,004 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:50:12,004 DEBUG geventwebsocket.server Closed WebSocket
-2018-02-23 23:50:12,004 DEBUG geventwebsocket.server Failed to write closing frame -> closing socket
-2018-02-23 23:50:12,005 DEBUG geventwebsocket.server Closed WebSocket
+2018-02-27 23:42:59,677 INFO werkzeug  * Detected change in '/var/www/flask_graphql/schema.py', reloading
+2018-02-27 23:42:59,753 INFO werkzeug  * Restarting with stat
+2018-02-27 23:43:05,440 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-27 23:43:07,445 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f9a483f9310>
+2018-02-27 23:43:10,448 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f9a483f9550>
+2018-02-27 23:43:13,451 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f9a483f9090>
+2018-02-27 23:43:13,451 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f9a483f9090>
+2018-02-27 23:43:13,451 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f9a483f9090>
+2018-02-27 23:43:13,452 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f9a483f9090>
+2018-02-27 23:43:13,452 ERROR schema subscribe ok
+2018-02-27 23:43:13,452 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-27 23:43:21,458 INFO werkzeug 127.0.0.1 - - [27/Feb/2018 23:43:21] "POST /graphql? HTTP/1.1" 200 -
+2018-02-27 23:43:38,924 INFO werkzeug  * Detected change in '/var/www/flask_graphql/schema.py', reloading
+2018-02-27 23:43:38,955 INFO werkzeug  * Restarting with stat
+2018-02-27 23:43:39,730 WARNING werkzeug  * Debugger is active!
+2018-02-27 23:43:39,732 INFO werkzeug  * Debugger PIN: 773-056-854
+2018-02-27 23:43:45,905 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-27 23:43:47,907 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1b1e990210>
+2018-02-27 23:43:50,909 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1b1e990450>
+2018-02-27 23:43:53,912 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1b1e990090>
+2018-02-27 23:43:53,912 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1b1e990090>
+2018-02-27 23:43:53,913 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1b1e990090>
+2018-02-27 23:43:53,913 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1b1e990090>
+2018-02-27 23:43:53,914 INFO werkzeug 127.0.0.1 - - [27/Feb/2018 23:43:53] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:11:11,301 INFO werkzeug  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2018-02-28 00:11:11,302 INFO werkzeug  * Restarting with stat
+2018-02-28 00:11:11,953 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:11:11,954 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:11:21,223 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:11:21] "GET /graphql HTTP/1.1" 200 -
+2018-02-28 00:11:22,201 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:11:22] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:11:41,318 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:11:41] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:11:41,577 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:11:41] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:15:16,696 DEBUG geventwebsocket.handler Initializing WebSocket
+2018-02-28 00:15:16,696 DEBUG geventwebsocket.handler Validating WebSocket request
+2018-02-28 00:15:16,696 DEBUG geventwebsocket.handler Attempting to upgrade connection
+2018-02-28 00:15:16,696 DEBUG geventwebsocket.handler Protocol allowed: graphql-ws
+2018-02-28 00:15:16,697 DEBUG geventwebsocket.handler WebSocket request accepted, switching protocols
+2018-02-28 00:15:16,699 ERROR __main__ ok1
+2018-02-28 00:15:16,701 ERROR __main__ <geventwebsocket.websocket.WebSocket object at 0x7f1e43d76db0>
+2018-02-28 00:15:16,707 DEBUG Rx Observable.timer(duetime=3000, period=3000)
+2018-02-28 00:15:16,709 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-28 00:15:18,712 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43525978>
+2018-02-28 00:15:21,714 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43525978>
+2018-02-28 00:15:24,717 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43525978>
+2018-02-28 00:15:24,717 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43525978>
+2018-02-28 00:15:24,717 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43525978>
+2018-02-28 00:15:24,717 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43525978>
+2018-02-28 00:15:24,718 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-28 00:15:27,907 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:15:27] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:15:28,491 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'like_message'
+2018-02-28 00:15:28,508 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:15:28] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:15:29,726 ERROR __main__ ssssssssssssss
+2018-02-28 00:15:29,726 ERROR __main__ Socket is dead
+2018-02-28 00:15:29,726 DEBUG geventwebsocket.handler Failed to write closing frame -> closing socket
+2018-02-28 00:15:29,726 DEBUG geventwebsocket.handler Closed WebSocket
+2018-02-28 00:15:50,068 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:15:50] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:15:50,579 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'like_message'
+2018-02-28 00:15:50,584 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:15:50] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:16:14,618 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:16:14] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:17:08,908 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:17:08] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:17:09,496 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'like_message'
+2018-02-28 00:17:09,499 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:17:09] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:19:47,064 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:19:47,288 INFO werkzeug  * Restarting with stat
+2018-02-28 00:19:48,631 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:19:48,631 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:19:51,279 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:19:51] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:19:51,821 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'limit'
+2018-02-28 00:19:51,824 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:19:51] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:20:08,230 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:20:08,453 INFO werkzeug  * Restarting with stat
+2018-02-28 00:20:09,604 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:20:09,608 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:20:17,360 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:20:17] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:20:17,840 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'limit'
+2018-02-28 00:20:17,847 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:20:17] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:20:43,634 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:20:43,731 INFO werkzeug  * Restarting with stat
+2018-02-28 00:20:44,882 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:20:44,883 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:20:49,836 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:20:49] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:20:50,518 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:20:50] "POST /graphql HTTP/1.1" 400 -
+2018-02-28 00:21:35,560 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:21:35,826 INFO werkzeug  * Restarting with stat
+2018-02-28 00:21:37,376 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:21:37,376 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:21:48,147 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:21:48] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:22:04,402 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:22:04,622 INFO werkzeug  * Restarting with stat
+2018-02-28 00:22:06,003 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:22:06,009 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:22:08,094 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:22:08,324 INFO werkzeug  * Restarting with stat
+2018-02-28 00:22:09,796 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:22:09,796 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:22:26,625 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:22:26] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:22:36,960 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:22:36] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:22:37,516 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'like_message'
+2018-02-28 00:22:37,521 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:22:37] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:23:20,130 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:23:20,348 INFO werkzeug  * Restarting with stat
+2018-02-28 00:23:21,604 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:23:21,605 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:23:24,127 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:23:24] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:23:35,671 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:23:35] "OPTIONS /graphql HTTP/1.1" 200 -
+2018-02-28 00:23:36,277 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'like_message'
+2018-02-28 00:23:36,279 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:23:36] "POST /graphql HTTP/1.1" 200 -
+2018-02-28 00:24:59,818 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:24:59] "GET /graphql HTTP/1.1" 200 -
+2018-02-28 00:25:01,076 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:25:01] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:25:23,157 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:25:23,397 INFO werkzeug  * Restarting with stat
+2018-02-28 00:25:24,824 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:25:24,827 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:25:27,618 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:25:27] "GET /graphql? HTTP/1.1" 200 -
+2018-02-28 00:25:28,594 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:25:28] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:25:56,920 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'like_message'
+2018-02-28 00:25:56,925 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:25:56] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:27:23,408 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:27:23,648 INFO werkzeug  * Restarting with stat
+2018-02-28 00:27:25,080 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:27:25,087 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:27:30,347 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:27:30] "GET /graphql HTTP/1.1" 200 -
+2018-02-28 00:27:31,860 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:27:31] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:27:33,744 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'like_message'
+2018-02-28 00:27:33,747 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:27:33] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:27:43,633 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:27:43,759 INFO werkzeug  * Restarting with stat
+2018-02-28 00:27:44,612 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:27:44,618 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:27:56,211 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:27:56] "GET /graphql HTTP/1.1" 200 -
+2018-02-28 00:27:57,140 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:27:57] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:27:58,760 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:27:58] "POST /graphql? HTTP/1.1" 400 -
+2018-02-28 00:28:31,060 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:28:31,252 INFO werkzeug  * Restarting with stat
+2018-02-28 00:28:32,196 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:28:32,204 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:28:34,665 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:28:34] "POST /graphql? HTTP/1.1" 400 -
+2018-02-28 00:28:35,576 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:28:35] "POST /graphql? HTTP/1.1" 400 -
+2018-02-28 00:28:35,759 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:28:35] "POST /graphql? HTTP/1.1" 400 -
+2018-02-28 00:29:37,038 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+TypeError: resolve_all_messages() missing 2 required positional arguments: 'context' and 'info'
+2018-02-28 00:29:37,042 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:29:37] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:29:57,482 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:29:57,756 INFO werkzeug  * Restarting with stat
+2018-02-28 00:29:58,893 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:29:58,894 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:29:58,917 ERROR schema query error
+2018-02-28 00:29:58,919 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:29:58] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:30:30,132 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:30:30] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:32:24,099 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:32:24,336 INFO werkzeug  * Restarting with stat
+2018-02-28 00:32:25,517 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:32:25,518 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:32:41,321 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:32:41] "POST /graphql? HTTP/1.1" 400 -
+2018-02-28 00:32:48,160 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:32:48] "POST /graphql? HTTP/1.1" 400 -
+2018-02-28 00:32:54,805 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:32:54] "POST /graphql? HTTP/1.1" 400 -
+2018-02-28 00:33:00,120 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:33:00] "GET /graphql? HTTP/1.1" 200 -
+2018-02-28 00:33:00,782 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:33:00] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:33:46,176 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:33:46,422 INFO werkzeug  * Restarting with stat
+2018-02-28 00:33:47,676 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:33:47,677 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:33:49,456 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:33:49] "GET /graphql HTTP/1.1" 200 -
+2018-02-28 00:33:50,288 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:33:50] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:34:05,832 ERROR schema query error
+2018-02-28 00:34:05,846 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:34:05] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:34:30,942 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:34:31,205 INFO werkzeug  * Restarting with stat
+2018-02-28 00:34:32,374 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:34:32,374 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:34:33,195 ERROR schema query error
+2018-02-28 00:34:33,217 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:34:33] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:34:34,256 ERROR schema query error
+2018-02-28 00:34:34,266 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:34:34] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:34:42,644 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:34:42,832 INFO werkzeug  * Restarting with stat
+2018-02-28 00:34:43,683 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:34:43,688 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:34:55,706 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:34:55] "GET /graphql? HTTP/1.1" 200 -
+2018-02-28 00:34:56,842 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:34:56] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:35:08,815 ERROR schema query error
+2018-02-28 00:35:08,828 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:35:08] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:35:31,383 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphene_sqlalchemy/fields.py", line 34, in connection_resolver
+    iterable = resolver(root, info, **args)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'last'
+2018-02-28 00:35:31,386 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:35:31] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:36:47,599 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:36:47,820 INFO werkzeug  * Restarting with stat
+2018-02-28 00:36:49,198 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:36:49,201 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:36:49,818 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphene_sqlalchemy/fields.py", line 34, in connection_resolver
+    iterable = resolver(root, info, **args)
+TypeError: resolve_all_messages() got an unexpected keyword argument 'last'
+2018-02-28 00:36:49,823 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:36:49] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:36:55,991 ERROR graphql.execution.executor An error occurred while resolving field Query.allMessages
+Traceback (most recent call last):
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executor.py", line 311, in resolve_or_error
+    return executor.execute(resolve_fn, source, info, **args)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphql/execution/executors/sync.py", line 7, in execute
+    return fn(*args, **kwargs)
+  File "/var/www/python3_flask_graphql/py3env/lib/python3.5/site-packages/graphene_sqlalchemy/fields.py", line 34, in connection_resolver
+    iterable = resolver(root, info, **args)
+TypeError: resolve_all_messages() missing 2 required positional arguments: 'context' and 'info'
+2018-02-28 00:36:55,993 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:36:55] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:37:08,837 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:37:09,061 INFO werkzeug  * Restarting with stat
+2018-02-28 00:37:10,154 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:37:10,161 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:37:10,266 ERROR schema query error
+2018-02-28 00:37:10,287 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:37:10] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:34,830 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:38:35,012 INFO werkzeug  * Restarting with stat
+2018-02-28 00:38:35,891 WARNING werkzeug  * Debugger is active!
+2018-02-28 00:38:35,897 INFO werkzeug  * Debugger PIN: 284-689-413
+2018-02-28 00:38:41,664 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:41,672 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:41] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:41,878 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:41,883 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:41] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:42,047 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:42,053 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:42] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:42,222 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:42,227 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:42] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:42,479 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:42,485 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:42] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:47,663 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:47,670 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:47] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:47,838 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:47,844 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:47] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:48,015 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:48,019 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:48] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:48,182 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:48,189 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:48] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:48,376 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:48,383 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:48] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:38:48,715 ERROR schema <graphql.execution.base.ResolveInfo object at 0x7f1df321aa98>
+2018-02-28 00:38:48,721 INFO werkzeug 127.0.0.1 - - [28/Feb/2018 00:38:48] "POST /graphql? HTTP/1.1" 200 -
+2018-02-28 00:39:15,101 INFO werkzeug  * Detected change in '/var/www/python3_flask_graphql/schema.py', reloading
+2018-02-28 00:39:15,243 INFO werkzeug  * Restarting with stat
+2018-02-28 00:39:54,705 INFO werkzeug  * Restarting with stat
+2018-02-28 00:40:09,802 INFO werkzeug  * Restarting with stat
+2018-02-28 00:40:19,327 INFO werkzeug  * Restarting with stat
+2018-02-28 00:41:13,592 INFO werkzeug  * Restarting with stat
+2018-02-28 00:50:39,779 DEBUG geventwebsocket.handler Initializing WebSocket
+2018-02-28 00:50:39,779 DEBUG geventwebsocket.handler Validating WebSocket request
+2018-02-28 00:50:39,780 DEBUG geventwebsocket.handler Attempting to upgrade connection
+2018-02-28 00:50:39,780 DEBUG geventwebsocket.handler Protocol allowed: graphql-ws
+2018-02-28 00:50:39,780 DEBUG geventwebsocket.handler WebSocket request accepted, switching protocols
+2018-02-28 00:50:39,780 ERROR __main__ ok1
+2018-02-28 00:50:39,780 ERROR __main__ <geventwebsocket.websocket.WebSocket object at 0x7f1e43d832b8>
+2018-02-28 00:50:39,953 DEBUG Rx Observable.timer(duetime=3000, period=3000)
+2018-02-28 00:50:39,954 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-28 00:50:41,955 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43552978>
+2018-02-28 00:50:44,958 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43552978>
+2018-02-28 00:50:47,961 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43552978>
+2018-02-28 00:50:47,961 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43552978>
+2018-02-28 00:50:47,961 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43d8c828>
+2018-02-28 00:50:47,961 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43d8c828>
+2018-02-28 00:50:47,961 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-28 00:51:58,175 DEBUG geventwebsocket.handler Closed WebSocket
+2018-02-28 00:51:58,175 ERROR __main__ ok2
+2018-02-28 00:52:01,493 DEBUG geventwebsocket.handler Initializing WebSocket
+2018-02-28 00:52:01,493 DEBUG geventwebsocket.handler Validating WebSocket request
+2018-02-28 00:52:01,493 DEBUG geventwebsocket.handler Attempting to upgrade connection
+2018-02-28 00:52:01,493 DEBUG geventwebsocket.handler Protocol allowed: graphql-ws
+2018-02-28 00:52:01,494 DEBUG geventwebsocket.handler WebSocket request accepted, switching protocols
+2018-02-28 00:52:01,494 ERROR __main__ ok1
+2018-02-28 00:52:01,494 ERROR __main__ <geventwebsocket.websocket.WebSocket object at 0x7f1e43d833f0>
+2018-02-28 00:52:01,649 DEBUG Rx Observable.timer(duetime=3000, period=3000)
+2018-02-28 00:52:01,649 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-28 00:52:03,650 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43562ac8>
+2018-02-28 00:52:06,655 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43562ac8>
+2018-02-28 00:52:09,658 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43562ac8>
+2018-02-28 00:52:09,661 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43562ac8>
+2018-02-28 00:52:09,663 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43562ac8>
+2018-02-28 00:52:09,667 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43562ac8>
+2018-02-28 00:52:09,675 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-28 00:52:17,686 ERROR __main__ ssssssssssssss
+2018-02-28 00:52:17,686 ERROR __main__ Socket is dead
+2018-02-28 00:52:17,686 DEBUG geventwebsocket.handler Failed to write closing frame -> closing socket
+2018-02-28 00:52:17,687 DEBUG geventwebsocket.handler Closed WebSocket
+2018-02-28 01:31:18,227 DEBUG geventwebsocket.handler Initializing WebSocket
+2018-02-28 01:31:18,263 DEBUG geventwebsocket.handler Validating WebSocket request
+2018-02-28 01:31:18,263 DEBUG geventwebsocket.handler Attempting to upgrade connection
+2018-02-28 01:31:18,264 DEBUG geventwebsocket.handler Protocol allowed: graphql-ws
+2018-02-28 01:31:18,264 DEBUG geventwebsocket.handler WebSocket request accepted, switching protocols
+2018-02-28 01:31:18,264 ERROR __main__ ok1
+2018-02-28 01:31:18,264 ERROR __main__ <geventwebsocket.websocket.WebSocket object at 0x7f1e43d83250>
+2018-02-28 01:31:18,270 DEBUG Rx Observable.timer(duetime=3000, period=3000)
+2018-02-28 01:31:18,270 DEBUG Rx CurrentThreadScheduler.schedule(state=None)
+2018-02-28 01:31:20,520 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43562e10>
+2018-02-28 01:31:23,521 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43d88c88>
+2018-02-28 01:31:26,524 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43d88c88>
+2018-02-28 01:31:26,524 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43d88c88>
+2018-02-28 01:31:26,524 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43d88c88>
+2018-02-28 01:31:26,525 ERROR schema <graphene_sqlalchemy.fields.SQLAlchemyConnectionField object at 0x7f1e43d88c88>
+2018-02-28 01:31:26,525 DEBUG Rx CurrentThreadScheduler.schedule(state=None)

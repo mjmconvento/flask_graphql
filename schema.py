@@ -5,6 +5,9 @@ from database import db_session, User as UserModel, Post as PostModel, Message a
 from sqlalchemy import and_, text
 import os.path
 import logging
+from rx import Observable, Observer
+import time
+import random
 
 logging.basicConfig(filename='/var/www/flask_graphql/error_log/error_log.txt', level=logging.DEBUG, 
                     format='%(asctime)s %(levelname)s %(name)s %(message)s')
@@ -32,6 +35,8 @@ class Samples(SQLAlchemyObjectType):
         model = SampleModel
         interfaces = (relay.Node, ) 
 
+
+
 # Used to Create New User
 class createUser(graphene.Mutation):
     class Input:
@@ -49,27 +54,7 @@ class createUser(graphene.Mutation):
         ok = True
         return createUser(user=user, ok=ok)
 
-# Used to Create New Post
-class createPost(graphene.Mutation):
-    class Input:
-        description = graphene.String()
-        imageUrl = graphene.String()
-    
-    description = graphene.String()
-    imageUrl = graphene.String()
-    ok = graphene.Boolean()
 
-    @classmethod
-    def mutate(cls, _, args, context, info):
-        post = PostModel(description=args.get('description'), imageUrl=args.get('imageUrl'))
-        db_session.add(post)
-        db_session.commit()
-        ok = True
-        # return createPost(ok=ok)
-
-        if pubsub.subscriptions:
-            pubsub.publish('posts', post.as_dict())
-        return createPost(ok=ok, post=post)
 
 
 
@@ -117,6 +102,7 @@ class UploadFile(graphene.Mutation):
 
 
 class Query(graphene.ObjectType):
+    base = graphene.String()
     node = relay.Node.Field()
     user = SQLAlchemyConnectionField(Users)
     message = SQLAlchemyConnectionField(Messages)
@@ -166,23 +152,124 @@ class Query(graphene.ObjectType):
         # you can also use and_ with filter() eg: filter(and_(param1, param2)).first()
         return query.filter(PostModel.id == post_id).first()
 
+
+# Used to Create New Post
+class createPost(graphene.Mutation):
+    class Input:
+        description = graphene.String()
+        imageUrl = graphene.String()
+    
+    description = graphene.String()
+    imageUrl = graphene.String()
+    ok = graphene.Boolean()
+
+    @classmethod
+    def mutate(cls, _, args, context, info):
+        post = PostModel(description=args.get('description'), imageUrl=args.get('imageUrl'))
+        db_session.add(post)
+        db_session.commit()
+        ok = True
+        # return createPost(ok=ok)
+        source.subscribe(PrintObserver())
+
+        return createPost(ok=ok)
+
 class MyMutations(graphene.ObjectType):
     create_user = createUser.Field()
     create_post = createPost.Field()
     change_username = changeUsername.Field()
     upload_file = UploadFile.Field()
 
-class Subscription(graphene.ObjectType):
-    all_posts = SQLAlchemyConnectionField(Posts)
+class RandomType(graphene.ObjectType):
+    seconds = graphene.Int()
+    random_int = graphene.Int()
 
-    # mutation oject that was published will be passed as
-    # root_value of subscription
-    # def resolve_posts(self, args, context, info):
-    #     try:
-    #         query = Posts.get_query(context)
-    #         return 'sss'
-    #     except Exception as e:
-    #         error.log('resolve_posts_error')
+
+
+class PrintObserver(Observer):
+    def on_next(self, value):
+        message = SQLAlchemyConnectionField(Messages)
+        print("Receivedss {0}".format(value))
+        logger.error(message)
+        return message
+
+    def on_completed(self):
+        message = SQLAlchemyConnectionField(Messages)
+        logger.error(message)
+        print("Doness!")
+        return message
+
+    def on_error(self, error):
+        print("Error Occurred: {0}".format(error))
+
+
+def push_five_strings(observer):
+    time.sleep(2)
+    observer.on_next("Alpha")
+    time.sleep(3)
+    observer.on_next("Beta")
+    time.sleep(3)
+    observer.on_next("Gamma")
+    observer.on_next("Delta")
+    observer.on_next("Epsilon")
+    observer.on_completed()
+
+
+source = Observable.create(push_five_strings)
+# source =  Observable.from_(["Alpha", "Beta", "Gamma", "Delta", "Epsilon"])
+
+
+
+# NOTES: https://github.com/graphql-python/graphql-ws/blob/master/examples/flask_gevent/schema.p
+# NOTES: add a placeholder to arguments,add a placeholder in do_??? function
+# NOTES: https://github.com/ReactiveX/RxPY
+class Subscription(graphene.ObjectType):
+    count_seconds = graphene.Float(up_to=graphene.Int())
+    post = graphene.Field(lambda: Posts)
+
+
+
+    def resolve_count_seconds(root, info, up_to=5, placeholder=''):
+        try:
+            letters = Observable.from_(["Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Alpha", 
+                "Beta", "Gamma", "Delta", "Epsilon", "Epsilon", "Alpha", "Beta", "Gamma", "Delta", "Epsilon", 
+                "Epsilon", "Alpha", "Beta", "Gamma", "Delta", "Epsilon", "Epsilon", "Alpha", "Beta", "Gamma", "Delta", "Epsilon"])
+
+            intervals = Observable.interval(3000)
+
+            # source.subscribe(on_next=lambda value: "Received {0}".format(value),
+            #          on_completed=lambda: "Done!",
+            #          on_error=lambda error: "Error Occurred: {0}".format(error))
+
+            # source = Observable.create(push_five_strings)
+
+            # source.subscribe(PrintObserver())
+
+            # return Observable.interval(1000)\
+            #              .map(lambda i: "{0}".format(i))\
+            #              .take_while(lambda i: int(i) <= 700)
+
+            source.subscribe(PrintObserver())
+            return source
+
+            # source = Observable.from_(["Alpha", "Beta", "Gamma", "Delta", "Epsilon"])
+
+            # source.subscribe(on_next=lambda value: "Received {0}".format(value), on_completed=lambda: "Done!", on_error=lambda error: "Error Occurred: {0}".format(error))
+
+            # return source
+
+
+
+            # return Observable.from_([1,2,3,4,5,6])
+
+            # return Observable.interval(50)\
+            #             .map(lambda i: "{0}".format(i))\
+            #             .take_while(lambda i: int(i) <= up_to)
+
+
+        except Exception as e:
+            logger.error(e)
+
 
 
 
